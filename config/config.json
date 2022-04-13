@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ap-invoice-details-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/apInvoiceDetails/ApInvoiceDetailsFieldCustomizer.js",
+          "manifest": "./src/extensions/apInvoiceDetails/ApInvoiceDetailsFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ApInvoiceDetailsFieldCustomizerStrings": "lib/extensions/apInvoiceDetails/loc/{locale}.js"
+  }
+}
